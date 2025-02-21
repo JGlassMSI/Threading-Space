@@ -43,7 +43,7 @@ fn print_toio_connected(toio_connected: i32){
 
 fn return_toio_id(name: &str) -> &str{
     //list of toio ids
-    const IDARR : [&str; 193] = [
+    const IDARR : [&str; 215] = [
         "Individual ID",  //TOIO Num
         "0",  // #1
         "j1c",  // #2
@@ -126,7 +126,7 @@ fn return_toio_id(name: &str) -> &str{
         "E7c",  // #79
         "P1B",  // #80
         "F2B",  // #81
-        "0",  // #82
+        "L1H",  // #82
         "D5i",  // #83
         "m4Q",  // #84
         "m1k",  // #85
@@ -137,7 +137,7 @@ fn return_toio_id(name: &str) -> &str{
         "f3K",  // #90
         "13c",  // #91
         "e1a",  // #92
-        "C8T",  // #93
+        "0",  // #93
         "e6e",  // #94
         "07F",  // #95
         "m8k",  // #96
@@ -156,7 +156,7 @@ fn return_toio_id(name: &str) -> &str{
         "p50",  // #109
         "c9k",  // #110
         "N0N",  // #111
-        "79N",  // #112
+        "0",  // #112
         "B1m",  // #113
         "h7E",  // #114
         "c05",  // #115
@@ -169,7 +169,7 @@ fn return_toio_id(name: &str) -> &str{
         "m6B",  // #122
         "M0j",  // #123
         "Q8G",  // #124
-        "0",  // #125
+        "A1t",  // #125
         "p7J",  // #126
         "t0H",  // #127
         "M5i",  // #128
@@ -237,6 +237,30 @@ fn return_toio_id(name: &str) -> &str{
         "p3E",  // #190
         "h6t",  // #191
         "n2L",  // #192
+        "i7H",  // #193 //Start of MSI-TOIOs
+        "h88",  // #194
+        "p34",  // #195 
+        "M7Q",  // #196
+        "03D",  // #197 
+        "597", // #198
+        "T6L", // #199
+        "m1F", // #200
+        "63r", // #201
+        "R5M", // #202
+        "30N", // #203
+        "37a", // #204
+        "38P", // #205
+        "L9Q", // #206
+        "T9j", // #207
+        "K5n", // #208
+        "27n", // #209
+        "K8i", // #210
+        "Q4t", // #211
+        "k5a", // #212
+        "n4i", // #213
+        "F7c", // #198
+
+
     ];
     match name.parse::<i32>() {
         Ok(n) => {
